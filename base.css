@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 body {
     background-color: #f1f1f1;
@@ -20,16 +21,17 @@ body {
 .menu {
     width: 12%;
     padding: 10px 20px 0px;
-    background-color: rgb(255, 229, 116);
-    color: #1f0536;
+    background-color: rgb(37, 125, 231);
 }
 .header {
     display: flex;
     align-items: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     gap: 100px;
-    background-color: #BC7BCF;
-    height: 100px;
+    color: #1a157b;
+    font-size: x-large;
+    background-color: #96CBEB;
+    min-height: 140px;
 }
 .content {
     background-color: rgb(249, 239, 226);
@@ -43,6 +45,17 @@ body {
 .footer {
     text-align: center;
     color: rgb(254, 254, 254);
-    background-color: #BC7BCF;
+    background-color:#96CBEB;
     min-height: 80px;
+}
+span{
+    color: #114ac6;
+}
+fieldset{
+    border-radius: 12px;
+}
+.qualidade{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
 }
