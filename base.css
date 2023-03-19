@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=IBM+Plex+Serif:ital,wght@1,300&display=swap');
 html, body {
     margin: 0;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
@@ -12,52 +13,97 @@ body {
     display: flex;
     margin: 0 auto;
 }
-.main {
+.content{
     display: flex;
     flex-flow: column;
     width: 87%;
 }
-.menu {
+nav{
     width: 12%;
     padding: 10px 20px 0px;
     background-color: rgb(37, 125, 231);
 }
-.header {
+.listaNav li, .listaNav a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-left: -20px;
+    padding-top: 10px;
+    transition: 0.3s;
+}
+.listaNav li:hover, .listaNav a:hover{
+    transform: scale(105%);
+}
+header{
     display: flex;
     align-items: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'IBM Plex Serif', serif;
     gap: 100px;
     color: #1a157b;
     font-size: x-large;
     background-color: #96CBEB;
     min-height: 140px;
 }
-.content {
+main {
     background-color: rgb(249, 239, 226);
-    min-height: 320px;
+    min-height: 340px;
     padding: 20px;
 }
 .formContato{
     display: flex;
     flex-direction: column;
 }
-.footer {
-    text-align: center;
-    color: rgb(254, 254, 254);
-    background-color:#96CBEB;
-    min-height: 50px;
-}
 span{
-    color: #114ac6;
+    color: #1107d3;
 }
 fieldset{
     border-radius: 12px;
     padding: 20px;
+    margin: 20px;
+}
+blockquote{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    background-color: rgb(193, 218, 255);
+    border-radius: 10px 0px;
+    padding: 20px;
+}
+input, textarea{
+    margin:10px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    border: solid thin black;
+}
+textarea{
+    height: 50px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    border-radius: 5px;
+    border: thin solid rgb(152, 152, 152);
+    background-color: #72b1f9;
+    width: 80px;
+    height: 30px;
+    transition: 0.2s;
+}
+button:hover{
+    transform: scale(110%);
+    background-color: #110c80;
+    color: white
 }
 .qualidade{
     display: flex;
     gap: 20px;
     padding: 30px;
+}
+iframe{
+    margin-left: 20px;
 }
 table thead th{
     background-color: #0e0791;
@@ -65,4 +111,10 @@ table thead th{
 }
 table tbody tr:nth-child(even) td{
     background-color: rgba(179, 177, 232, 0.3);
+}
+footer {
+    text-align: center;
+    color: rgb(254, 254, 254);
+    background-color:#96CBEB;
+    min-height: 50px;
 }

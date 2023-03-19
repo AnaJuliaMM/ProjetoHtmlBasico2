@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horários de Atendimento</title>
+    <title>Horários de Atendimento | DermaCare</title>
     <link rel="stylesheet" href="base.css">
 </head>
 <body>
     <div class="wrapper">
-        <div class="menu">
+        <nav class="listaNav">
             <!-- Aqui vai o seu menu -->
             <ul>
                 <li><a href="./index.html">Página Principal</a></li>
@@ -17,17 +17,16 @@
                 <li><a href="./atendimento.html">Atendimento</a></li>
                 <li><a href="./contato.html">Contato</a></li>
             </ul>
-        </div>
-
-        <div class="main">
-            <div class="header" id="header">
+        </nav>
+        <div class="content">
+            <header id="header">
                 <img src="./Img/DermaCare (1).png" width="200"alt="" title="logo">
                 <h1>Clínica DermaCare</h1>
-            </div>
-            <div class="content">
-                <h2><u>Sobre os serviços</u></h2>
+            </header>
+            <main>
+                <h2>Sobre os serviços</h2>
                 <p>
-                    Trabalhamos com agendamento! Alguns dos nossos serviços mais populares se encontram na tabela abaixo, mas mande mensagem para o nosso Whatsapp para consultar qualquer outro serviço desejado.
+                    Trabalhamos com agendamento. Abaixo estão os horários de atendimento:
                 </p>
                 <fieldset>
                     <legend>Atendimento</legend>
@@ -51,7 +50,9 @@
                     </table>
                     <p>Entre em <a href="./contato.html">contato</a> para fazer seu agendamento!</p>
                 </fieldset>
-                <br>
+                <p>
+                    Os <b>preços</b> de alguns dos nossos serviços mais populares se encontram na tabela abaixo, mas mande mensagem para o nosso Whatsapp para consultar qualquer outro serviço que não esteja na tabela.
+                </p>
                 <fieldset>
                     <legend>Preços</legend>
                     <table cellspacing="0" width="700">
@@ -93,12 +94,11 @@
                         </tbody>
                     </table>
                 </fieldset>
-                
-            </div>
-            <div class="footer">
+                <a href="#header"><small>Voltar</small></a>    
+            </main>
+            <footer>
                 <p>Todos os direitos reservados</p> 
-                <a href="#header"><small>(VOLTAR)</small></a>
-            </div>
+            </footer>
         </div>
     </div>
 </body>

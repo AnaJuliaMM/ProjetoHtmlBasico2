@@ -4,27 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="base.css">
+    <title>Bem-vindo | DermaCare</title>
+    <link rel="stylesheet" href="./base.css">
 </head>
 <body>
     <div class="wrapper">
-        <div class="menu">
-            <!-- Aqui vai o seu menu -->
-            <ul>
+        <nav class="listaNav">
+            <ul c>
                 <li><a href="./index.html">Página Principal</a></li>
                 <li><a href="./sobreClinica.html">Sobre a clínica</a></li>
                 <li><a href="./atendimento.html">Atendimento</a></li>
                 <li><a href="./contato.html">Contato</a></li>
             </ul>
-        </div>
-
-        <div class="main">
-            <div class="header" id="header">
+        </nav>
+        <div class="content">
+            <header>
                 <img src="./Img/DermaCare (1).png" width="200"alt="" title="logo">
                 <h1>Clínica DermaCare</h1>
-            </div>
-            <div class="content">
+            </header>
+            <main>
                 <fieldset>
                     <div class="qualidade">
                         <div>
@@ -32,15 +30,22 @@
                                 <h2>Bem-vindo ao DermaCare, a clínica líder em <u>cuidados dermatológicos!</u></h2>
                                 Estamos aqui para fornecer a melhor experiência possível para todos os nossos clientes, com foco em <span>atendimento excepcional, tecnologia de ponta e experiência do cliente</span> .
                             </p>
+                            <details>
+                                <summary>Marque sua <a href="./atendimento.html">consulta</a></summary>
+                                    Acesse aqui <a href="./atendimento.html">Atendimento</a>
+                            </details>
+                            <details>
+                                <summary>Saiba mais <a href="./sobreClinica.html">sobre a clínica</a></summary>
+                                    Acesse aqui <a href="./sobreClinica.html">Sobre a clínica</a>
+                            </details>
                         </div>
                         <img src="./Img/Workout.svg" width="200">
                     </div>
                 </fieldset>
-            </div>
-            <div class="footer">
+            </main>
+            <footer>
                 <p>Todos os direitos reservados</p>
-                <a href="#header"><small>(VOLTAR)</small></a> 
-            </div>
+            </footer>
         </div>
     </div>
 </body>
