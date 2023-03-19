@@ -1,5 +1,8 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+# Projeto site de uma clínica
+## Sobre o projeto
+O projeto foi uma atividade de bootcamp HTML web developer da Digital Innovation One. Esse projeto pertence ao segundo módulo, quando aprendemos sobre tags de estruturação de textos, formulários e tabelas. Assim, desenvolvi um site de uma clínica dermatológica com a secção página inicial, sobre a clínica, atendimento(horário e preços) e contato(informações e formulário para contato).
+
+## Enunciado do projeto: Módulo 02 - HTML I - Conceitos Básicos
 
 Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
 - Formulários
@@ -9,66 +12,40 @@ Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que v
 
 Além de outros recursos falados nas aulas!
 
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+## Estrutura das páginas
+### Página Inicial
+1. header(logo + nome da clínica), menu e footer;
+2. Breve introdução sobre a clínica;
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/123522605/226195667-9bc8fb24-33d4-4b4f-a535-45601adc8aa7.png">
 
-Abaixo como cada página deve ser criada e estruturada.
-
-### Estrutura das páginas
-
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
-
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
-
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
-
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
 
 ### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+1. header(logo + nome da clínica), menu e footer;
+2. Informações sobre a Clínica;
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/123522605/226195702-ba4f5ada-17c5-42bd-8019-3af683374dc1.png">
+
 
 ### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
-
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
-
-3. **Menu** e **Footer** padrões em todas as páginas.
+1. header(logo + nome da clínica), menu e footer;
+2. Tabela com os horários de funcionamento;
+3. Tabela de preços;
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/123522605/226195722-037b3bfc-2c85-412b-b1b9-033bc7866731.png">
 
 
 ### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
+1. header(logo + nome da clínica), menu e footer;
+2. Informações de celular, whatsapp e endereço;
+3. Formulário;
+4. Mapa de localização da clínica (google maps);
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/123522605/226195770-1acc2faa-3571-4419-838f-9b94ad4d480d.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/123522605/226195777-a8458986-9bfb-4a84-942d-554e0c7d3734.png">
 
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
 
-Bora pra cima!
+
+
+
+
+
+
+
