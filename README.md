@@ -1,8 +1,12 @@
-# Projeto site de uma clínica
-## Sobre o projeto
-O projeto foi uma atividade de bootcamp HTML web developer da Digital Innovation One. Esse projeto pertence ao segundo módulo, quando aprendemos sobre tags de estruturação de textos, formulários e tabelas. Assim, desenvolvi um site de uma clínica dermatológica com a secção página inicial, sobre a clínica, atendimento(horário e preços) e contato(informações e formulário para contato).
+# Projeto site de uma clínica dermatológica
+## Sobre o projeto 📖
+*(en)*
+This project is a challenge from the second module of the Bootcamp HTML Web Developer (Digital Innovation One), in what I learned about text, table and forms tags. For this reason, this project is a website of a dermatological clinic with home page, "about us" page, appoitment informations and a contact forms.
 
-## Enunciado do projeto: Módulo 02 - HTML I - Conceitos Básicos
+*(pt-br)*
+O projeto é um desafio de projeto desenvolvido no bootcamp HTML web developer da Digital Innovation One. Esse projeto pertence ao segundo módulo, no qual é trabalhado tags de estruturação de textos, formulários e tabelas. Assim, desenvolvi um site de uma clínica dermatológica com as páginas inicial, sobre a clínica, atendimento(horário e preços) e contato(informações e formulário para contato).
+
+## Enunciado do projeto: Módulo 02 - HTML I - Conceitos Básicos 📢
 
 Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
 - Formulários
@@ -12,7 +16,7 @@ Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que v
 
 Além de outros recursos falados nas aulas!
 
-## Estrutura das páginas
+## Estrutura das páginas e Demonstração 📸
 ### Página Inicial
 1. header(logo + nome da clínica), menu e footer;
 2. Breve introdução sobre a clínica;
@@ -41,6 +45,11 @@ Além de outros recursos falados nas aulas!
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/123522605/226195770-1acc2faa-3571-4419-838f-9b94ad4d480d.png">
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/123522605/226195777-a8458986-9bfb-4a84-942d-554e0c7d3734.png">
 
+
+
+## Linguagens / Tools
+<a><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" target="_blank"></a>
+<a><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" target="_blank"></a>
 
 
 
